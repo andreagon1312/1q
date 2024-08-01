@@ -1,0 +1,47 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2; /* Light gray background */
+  }
+  
+  header {
+    background-color: #515760; /* Dark gray header */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff; /* White content area */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #2EA082; /* Teal heading */
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #69C16F; /* Green link color */
+  }
+  

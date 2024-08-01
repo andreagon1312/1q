@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Python</title>
+    <link rel="stylesheet" href="python.css">
+</head>
+<body>
+    <header>
+        <h1>Curso de Python</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="cpp.html">Curso de C++</a>
+        </nav>
+    </header>
+    <main>
+        <section id="teoria">
+            <h2>Teoría</h2>
+            <article>
+                <h3>Variables y Constantes</h3>
+                <h1>Fundamentos de Python</h1>
+                <p>En Python, una variable es un espacio de memoria que almacena un valor que puede cambiar durante la ejecución del programa. Se crean simplemente asignando un valor a un nombre utilizando el signo igual (=).</p>
+                <p>Una constante es un valor que no cambia a lo largo de la ejecución del programa. Aunque Python no tiene soporte directo para constantes, por convención, los nombres de las constantes se escriben en mayúsculas.</p>
+                <img src="images/variables_constantes.png" alt="Ejemplo de variables y constantes en Python">
+            
+                <h2>Tipos de Datos</h2>
+                <p>Python tiene varios tipos de datos básicos:</p>
+                <ul>
+                    <li><strong>Enteros (<code>int</code>)</strong>: números enteros, e.g., <code>1</code>, <code>42</code>, <code>-5</code>.</li>
+                    <li><strong>Punto flotante (<code>float</code>)</strong>: números decimales, e.g., <code>3.14</code>, <code>2.0</code>.</li>
+                    <li><strong>Cadenas de texto (<code>str</code>)</strong>: secuencias de caracteres, e.g., <code>"Hola"</code>, <code>'Python'</code>.</li>
+                    <li><strong>Booleanos (<code>bool</code>)</strong>: valores de verdadero o falso, e.g., <code>True</code>, <code>False</code>.</li>
+                    <li><strong>Listas (<code>list</code>)</strong>: colecciones ordenadas de elementos, e.g., <code>[1, 2, 3]</code>.</li>
+                    <li><strong>Tuplas (<code>tuple</code>)</strong>: colecciones ordenadas e inmutables, e.g., <code>(1, 2, 3)</code>.</li>
+                    <li><strong>Diccionarios (<code>dict</code>)</strong>: colecciones de pares clave-valor, e.g., <code>{"nombre": "Juan", "edad": 30}</code>.</li>
+                </ul>
+                <img src="images/tipos_datos.png" alt="Ejemplo de tipos de datos en Python">
+            
+                <h2>Condicionales</h2>
+                <p>Los condicionales permiten tomar decisiones en el código según ciertas condiciones. La estructura básica es <code>if</code>, <code>elif</code> y <code>else</code>.</p>
+                <img src="images/condicionales.png" alt="Ejemplo de condicionales en Python">
+            
+                <h2>Ciclos</h2>
+                <p>Los ciclos permiten repetir un bloque de código varias veces. Los dos tipos principales son <code>for</code> y <code>while</code>.</p>
+                <ul>
+                    <li><strong>Ciclo <code>for</code></strong>: se usa para iterar sobre una secuencia (como una lista o una cadena).</li>
+                    <li><strong>Ciclo <code>while</code></strong>: repite un bloque de código mientras una condición sea verdadera.</li>
+                </ul>
+                <img src="images/ciclos.png" alt="Ejemplo de ciclos en Python">
+            
+                <h2>Funciones</h2>
+                <p>Las funciones son bloques de código que realizan una tarea específica y pueden ser reutilizados. Se definen usando la palabra clave <code>def</code>.</p>
+                <img src="images/funciones.png" alt="Ejemplo de funciones en Python">
+            
+                <h2>Estructuras de Datos Básicas</h2>
+                <ul>
+                    <li><strong>Listas (<code>list</code>)</strong>: colecciones ordenadas y mutables.</li>
+                    <li><strong>Tuplas (<code>tuple</code>)</strong>: colecciones ordenadas e inmutables.</li>
+                    <li><strong>Diccionarios (<code>dict</code>)</strong>: colecciones de pares clave-valor.</li>
+                </ul>
+                <img src="images/estructuras_datos.png" alt="Ejemplo de estructuras de datos básicas en Python">
+            
+                <h2>Programación Orientada a Objetos (POO)</h2>
+                <p>La POO es un paradigma de programación que utiliza "objetos" para modelar datos y comportamiento. Los objetos son instancias de clases, que actúan como plantillas. Aquí hay un ejemplo básico:</p>
+                <img src="images/poo.png" alt="Ejemplo de programación orientada a objetos en Python">
+            
+            </article>
+
+        </section>
+        <section id="quiz">
+            <h2>Quiz Interactivo</h2>
+            <div id="quiz-container"></div>
+            <button onclick="startQuiz()">Iniciar Quiz</button>
+        </section>
+    </main>
+    <script src="./curso1/index.js"></script>
+</body>
+</html>

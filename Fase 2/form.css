@@ -1,0 +1,46 @@
+/* index.css */
+
+/* Targets the quiz container when it's displayed (block) */
+#quiz-container.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Styles for quiz questions */
+  #quiz-form label {
+    display: block; /* Display each question on a new line */
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Styles for radio buttons and checkbox */
+  #quiz-form input[type="radio"],
+  #quiz-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Styles for the select element */
+  #quiz-form select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the submit button */
+  #quiz-form button {
+    background-color: #2e9751;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the alert message (optional) */
+  .alert {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }

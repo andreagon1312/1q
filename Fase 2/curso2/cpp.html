@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de C++</title>
+    <link rel="stylesheet" href="cpp.css">
+</head>
+<body>
+    <header>
+        <h1>Curso de C++</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="python.html">Curso de C++</a>
+        </nav>
+    </header>
+    <main>
+        <section id="teoria">
+            <h2>Contenido Teórico</h2>
+            <article>
+                <h3>Variables y Constantes</h3>
+                <p><b>¿Qué son las variables y las constantes?</b><br><br>
+
+                    Imagina que estás construyendo una casa. Los ladrillos son los elementos básicos que utilizas para construir las paredes. En programación, las variables y las constantes son como esos ladrillos: son los elementos fundamentales que utilizas para construir tus programas.<br><br>
+                    
+                    Variables: Son como cajas con un nombre específico donde puedes guardar diferentes tipos de información, como números, letras o palabras. El contenido de estas cajas puede cambiar a lo largo de la ejecución del programa.
+                    Constantes: Son como cajas que tienen un valor fijo y no pueden cambiar una vez que han sido asignadas. Son como etiquetas que indican un valor que no debe modificarse.<br><br>
+                    <b>¿Para qué sirven?</b><br><br>
+                    
+                    <b>Variables:</b><br><br>
+                    Almacenar datos que pueden cambiar durante la ejecución del programa.<br>
+                    Realizar cálculos y operaciones.<br>
+                    Controlar el flujo de un programa.<br><br>
+                    <b>Constantes:</b><br><br>
+                    Representar valores que no cambian, como números pi o la velocidad de la luz.<br>
+                    Hacer el código más legible y mantenible.<br>
+                    Evitar errores al modificar accidentalmente un valor importante.</p>
+            </article>
+            <article>
+                <h3>Tipos de Datos</h3>
+                <p><b>¿Qué es un tipo de dato?</b><br><br>
+
+                    Imagina que tienes cajas de diferentes tamaños y formas. En una caja pequeña puedes guardar un anillo, en una caja mediana un libro y en una caja grande una pelota de baloncesto. Cada caja representa un tipo de dato diferente, y el objeto que guardas dentro de ella debe tener el tamaño y la forma adecuados.
+
+                    En C++, los tipos de datos definen el tamaño y el rango de valores que una variable puede almacenar. Esto le indica al compilador cómo interpretar los datos y qué operaciones se pueden realizar con ellos. <br><br>
+                    <b>Tipos de datos básicos</b><br><br>
+                    
+                    <b>INT</b><br><br>
+                    Representa números enteros, tanto positivos como negativos (ej: 5, -10, 0).<br><br>
+                    <b>FLOAT</b><br><br>
+                    Representa números de punto flotante (con decimales), con una precisión limitada (ej: 3.14, -2.5).<br><br>
+                    <b>DOUBLE</b><br><br>
+                    Representa números de punto flotante con mayor precisión que float (ej: 3.14159265).<br><br>
+                    <b>CHAR</b><br><br>
+                    Representa un solo carácter, como una letra, un número o un símbolo especial (ej: 'a', 'Z', '9').<br><br>
+                    <b>BOOL</b><br><br>
+                    Representa valores booleanos, que pueden ser true (verdadero) o false (falso).<br><br>
+            </article>
+            <article>
+                <h3>Condicionales </h3>
+                <p><b>¿Qué son los condicionales?</b><br><br>
+
+                    Imagina que estás conduciendo un coche y llegas a un cruce. Tienes que tomar una decisión: ¿girar a la izquierda, a la derecha o seguir recto? En programación, los condicionales nos permiten tomar decisiones similares dentro de nuestros programas.<br><br>
+                    
+                    Los condicionales nos permiten ejecutar diferentes bloques de código dependiendo de si se cumple o no una determinada condición. Son como bifurcaciones en un camino: si se cumple una condición, el programa sigue por un camino; si no se cumple, sigue por otro.<br><br>
+                    <b>La estructura básica del condicional IF</b><br><br>
+                    if (condición) {<br>
+                           // Código a ejecutar si la condición es verdadera <br>
+                      }<br><br>
+
+                    <b>Condición:</b> Es una expresión que se evalúa como verdadera o falsa. <br>
+                    <b>Bloque de código:</b> Es el conjunto de instrucciones que se ejecutan si la condición es verdadera. Bloque de código <br><br>
+                    <b>El condicional else</b><br><br>
+                    if (condición) {  <br>
+                        // Código a ejecutar si la condición es verdadera  <br>
+                      } else { <br>
+                        // Código a ejecutar si la condición es falsa <br>
+                      }<br><br>
+            </article>
+            <article>
+                <h3>Ciclos o Bucles </h3>
+                <p><b>¿Qué son los ciclos en programación?</b><br><br>
+
+                    Imagina que quieres imprimir los números del 1 al 100 en la pantalla. ¿Te imaginas escribiendo cada número en una línea diferente? Sería muy tedioso y propenso a errores. Los ciclos nos permiten automatizar tareas repetitivas como esta. <br><br>
+
+                    Un ciclo, también conocido como bucle, es una estructura de control que permite ejecutar un bloque de código repetidamente mientras se cumpla una determinada condición. <br> <br>
+                    <b>Tipos de ciclos </b><br><br>
+                    <b>for:</b> Se utiliza cuando se conoce de antemano el número de iteraciones. <br>
+                    <b>while:</b> Se utiliza cuando la condición de finalización del ciclo se evalúa al principio de cada iteración. <br>
+                    <b>do-while:</b> Es similar al ciclo while, pero la condición se evalúa al final de cada iteración, garantizando que el cuerpo del ciclo se ejecute al menos una vez. <br>
+            </article>
+            <article>
+                <h3>Funciones</h3>
+                <p><b>¿Qué es una funcion?</b><br><br>
+
+                    Imagina que tienes una receta de cocina. La receta te indica los ingredientes y los pasos que debes seguir para preparar un plato. En programación, una función es como una receta: es un bloque de código que realiza una tarea específica. Las funciones nos permiten dividir nuestro programa en partes más pequeñas y manejables, haciendo que el código sea más fácil de leer, entender y mantener.<br> <br>
+                    <b>Estructura de una función</b><br><br>
+                    <b>Tipo_de_dato:</b> El tipo de dato que la función devolverá.<br>
+                    <b>Nombre_de_la_función:</b> Un nombre que identifica a la función.<br>
+                    <b>Parámetros:</b> Los datos que se le pasan a la función para que realice su tarea.<br>
+                    <b>Cuerpo de la función:</b> El conjunto de instrucciones que la función ejecuta.<br>
+                    <b>Return:</b> La palabra clave que se utiliza para devolver un valor desde la función.<br>
+            </article>
+            <article>
+                <h3>Programacion Orientada a Objetos</h3>
+                <p><b>¿Qué es la POO?</b><br><br>
+
+                    La Programación Orientada a Objetos (POO) es un paradigma de programación que se basa en la idea de organizar el código en torno a objetos. Un objeto es una entidad que tiene propiedades (atributos) y comportamientos (métodos). Por ejemplo, un coche es un objeto que tiene propiedades como color, marca y modelo, y comportamientos como acelerar, frenar y girar.<br> <br>
+                    <b>Conceptos fundamentales de la POO</b><br><br>
+                    <b>Clase:</b> Es el plano o molde a partir del cual se crean los objetos. Define los atributos y métodos que compartirán todos los objetos de esa clase.<br>
+                    <b>Objeto:</b> Es una instancia de una clase. Cada objeto tiene sus propios valores para los atributos.<br>
+                    <b>Atributos:</b> Son las características o propiedades de un objeto. Por ejemplo, el color y el tamaño de un círculo.<br>
+                    <b>Métodos:</b> Son las acciones que un objeto puede realizar. Por ejemplo, el método calcularArea() para un círculo.<br>
+                    <b>Encapsulamiento:</b> Consiste en ocultar los detalles internos de un objeto y exponer solo una interfaz para interactuar con él. Esto protege los datos y evita modificaciones no deseadas.<br>
+                    <b>Herencia:</b> Permite crear nuevas clases (clases derivadas) a partir de clases existentes (clases base), heredando sus atributos y métodos. Esto promueve la reutilización de código.<br>
+                    <b>Polimorfismo:</b> Permite que objetos de diferentes clases puedan ser tratados como si fueran de una misma clase, siempre y cuando tengan métodos con el mismo nombre.<br>
+            </article>
+
+        </section>
+        <section id="quiz">
+            <h2>Quiz Interactivo</h2>
+            <div id="quiz-container"></div>
+            <button onclick="startQuiz()">Iniciar Quiz</button>
+        </section>
+    </main>
+    <script src="./curso2/index1.js"></script>
+</body>
+</html>
